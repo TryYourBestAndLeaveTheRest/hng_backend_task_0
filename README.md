@@ -2,6 +2,8 @@
 
 ## Description
 
+
+live url : https://hng-backend-task-0-kxuj.onrender.com/api/hng-task-0 
 This is a project that focus on implementing rest api to return a json format of my email, current date and the url of the repository to my github
 
 ## Setup Instructions

@@ -3,9 +3,10 @@ const express = require('express');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-
+app.use(express.json());
 app.get('/', (req, res) => {
-  res.send('Hello World');
+    const current_datetime = new Date().toISOString();
+  res.status(200).json({email:'sherifdeenraji96@gmail.com',current_datetime, github_url:'https://github.com/TryYourBestAndLeaveTheRest/hng_backend_task_0'});
 });
 
 app.listen(PORT,()=>{

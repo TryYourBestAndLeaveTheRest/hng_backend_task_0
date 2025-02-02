@@ -38,7 +38,7 @@ This is a project that focus on implementing rest api to return a json format of
 - **Description**: Retrieves an example resource.
 - **Request**:
   ```http
-  GET /api/example
+  GET /api/hng-task-0
   ```
 - **Response**:
   ```json
@@ -50,5 +50,5 @@ This is a project that focus on implementing rest api to return a json format of
   ```
 - **Example Usage**:
   ```bash
-  curl -X GET http://localhost:3000/api/example
+  curl -X GET http://localhost:3000/api/hng-task-0
   ```
